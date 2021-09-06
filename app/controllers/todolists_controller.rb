@@ -13,6 +13,7 @@ class TodolistsController < ApplicationController
     # redirect_to '/top' を削除して、以下コードに変更
     # 詳細画面へリダイレクト
     redirect_to todolist_path(list.id)
+
   end
 
   def index
